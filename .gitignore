@@ -29,7 +29,8 @@
 .history/*
 
 # Miscellaneous
-**//.angular/cache
+**/.angular
+**/.angular/cache
 **/.sass-cache/
 **/connect.lock
 **/coverage

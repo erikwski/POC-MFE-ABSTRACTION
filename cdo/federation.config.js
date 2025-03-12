@@ -5,12 +5,15 @@ module.exports = withNativeFederation({
   name: 'cdo',
 
   exposes: {
-    './Component': './src/app/app.component.ts',
+    './cdoMain': './src/app/app.component.ts',
   },
 
   shared: {
+    
     ...shareAll({ singleton: true, strictVersion: true, requiredVersion: 'auto' }),
   },
+
+  
 
   skip: [
     'rxjs/ajax',
